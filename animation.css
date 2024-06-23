@@ -1,0 +1,95 @@
+body{
+    background-color:navy;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items: center;
+    position:static;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+  }
+
+  .container{
+    height:70vh;
+    text-align:center;
+    color:white;
+    font-weight:900;
+    display: flexbox;
+    text-align:center;
+    justify-content:center;
+    padding:2vmin 6vmin;
+  }
+  .game{
+    flex-wrap:wrap;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    gap:2.5vh;
+    width:60vmin;
+    height:60vmin;
+    font-size:10vh;
+    margin:auto;
+  }
+  .box{
+    width:17vmin;
+    height: 17vmin;
+    border-radius:3vh;
+    border:none;
+    font-size:10vh;
+    font-weight:600;
+    color:brown;
+  }
+  .box:hover{
+    background-color:grey;
+  }
+  
+  .restart{
+    margin-top:15px;
+    width:20vh;
+    border-radius:3vh;
+    border:none;
+    font-size:3vh;
+    font-weight:600;
+    padding:auto;
+  }
+ .head{
+  display:inline;
+  text-align: center;
+ }
+  .hide{
+    display: none;
+  }
+  .start{
+    margin-top:15px;
+    width:20vh;
+    border-radius:3vh;
+    border:none;
+    font-size:3vh;
+    font-weight:600;
+    padding:auto;
+  }
+  .winner{
+    padding: 5px;
+    margin:10px;
+    font-size:7vh;
+    font-weight:600;
+  }
+ 
+@media screen and (max-width:350px){
+ .box{
+  width:10vmin;
+  height:10vmin;
+  font-size: 3vh;
+  border-radius: 1px;
+ }
+ .game{
+  width:50vmin;
+  height:50vmin;
+ }
+  .winner{
+    font-size:5vh;
+  }
+}
