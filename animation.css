@@ -81,9 +81,9 @@ body{
  
 @media screen and (max-width:450px){
  .box{
-  width:14vmin;
-  height:14vmin;
-  font-size: 6vh;
+  width:12vmin;
+  height:12vmin;
+  font-size: 4vh;
   border-radius: 8px;
  }
  .game{
