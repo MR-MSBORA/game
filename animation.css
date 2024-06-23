@@ -78,7 +78,7 @@ body{
     font-weight:600;
   }
  
-@media screen and (max-width:350px){
+@media screen and (max-width:420px){
  .box{
   width:10vmin;
   height:10vmin;
