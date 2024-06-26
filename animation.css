@@ -43,9 +43,6 @@ body{
     color:brown;
     
   }
-  .box:hover{
-    background-color:grey;
-  }
   
   .restart{
     margin-top:15px;
